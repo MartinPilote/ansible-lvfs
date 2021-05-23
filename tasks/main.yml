@@ -1,0 +1,7 @@
+---
+- name: Install Linux Vendor Firmware package
+  package:
+    state: latest
+    name:
+      - fwupd
+...
